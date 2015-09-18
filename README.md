@@ -31,7 +31,43 @@ extract(fileName, function (err, result) {
 })
 ```
 
-The output should be an object describing usefull information about the file and its contents.
+The output should be an array of recognized objects describing usefull information about the file and its contents.
+
+```javascript
+[ { 
+    type: 'SUSS',
+    data:
+    {   
+      CUIT: '**-********-*',
+      Periodo: '08/2015',
+      Revision: 0,
+      EmpleadosEnNomina: 8,
+      SumaDeREM: 
+      [ 
+        { REM: 1, value: 80947.05 },
+        { REM: 2, value: 80947.05 },
+        { REM: 3, value: 80947.05 },
+        { REM: 4, value: 80947.05 },
+        { REM: 5, value: 80947.05 },
+        { REM: 6, value: 0 },
+        { REM: 7, value: 0 },
+        { REM: 8, value: 80947.05 },
+        { REM: 9, value: 80947.05 } 
+      ],
+      MontosQueSeIngresan: 
+      [ 
+        { code: 351, name: 'Contribuciones de Seguridad Social', value: 14489.55 },
+        { code: 302, name: 'Aportes de Obra Social', value: 2064.14 },
+        { code: 301, name: 'Aportes de Seguridad Social', value: 11696.87 },
+        { code: 360, name: 'Contribuciones RENATEA', value: 0 },
+        { code: 312, name: 'L.R.T.', value: 2870.33 },
+        { code: 352, name: 'Contribuciones de Obra Social', value: 4128.31 },
+        { code: 28,  name: 'Seguro Colectivo de Vida Obligatorio', value: 32.8 },
+        { code: 935, name: 'Aportes RENATEA', value: 0 } ] } } 
+      ]
+    }
+} ]
+```
 
 ## As a command line tool
 
