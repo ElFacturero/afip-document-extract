@@ -1,0 +1,19 @@
+{
+  "name": "afip-document-extract",
+  "version": "1.0.0",
+  "description": "Extracts relevant information from AFIP (Argentina)'s PDF documents. (SUSS, IVA, etc)",
+  "main": "index.js",
+  "dependencies": {
+    "pdf-text-extract": "ivantodorovich/pdf-text-extract"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "keywords": [
+    "PDF",
+    "AFIP",
+    "Extract"
+  ],
+  "author": "Iván Todorovich <ivan.todorovich@gmail.com>",
+  "license": "MIT"
+}
