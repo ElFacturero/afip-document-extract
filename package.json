@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Extracts relevant information from AFIP (Argentina)'s PDF documents. (SUSS, IVA, etc)",
   "main": "index.js",
+  "bin": "./bin/cmd.js",
   "dependencies": {
     "pdf-text-extract": "ivantodorovich/pdf-text-extract"
   },
