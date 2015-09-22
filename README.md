@@ -8,7 +8,7 @@ It relies on `pdftotext`, so it should be available on your path.
 
 # Installation
 ```bash
-npm install afip-document-extract
+npm install ivantodorovich/afip-document-extract
 ```
 
 You will need the `pdftotext` binary available on your path. There are packages available for many different operating systems.
