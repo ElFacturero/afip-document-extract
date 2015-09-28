@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": "./bin/cmd.js",
   "dependencies": {
-    "pdf-text-extract": "ivantodorovich/pdf-text-extract"
+    "pdf-text-extract": "^1.3.1"
   },
   "engines": {
     "node": ">=4.0.0"
